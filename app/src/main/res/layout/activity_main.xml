@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.androidanimation.customclasses.SplitView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:splitview="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/split_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    splitview:handle="@+id/handle"
+    splitview:primaryContent="@+id/primary"
+    splitview:secondaryContent="@+id/secondary"
+    tool:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textSize="20sp"
+            android:text="First Window"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/handle"
+        android:layout_width="fill_parent"
+        android:layout_height="10dip"
+        android:background="@drawable/shade_handlebar"/>
+
+    <com.androidanimation.customclasses.SplitView
+        android:id="@+id/secondary"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        splitview:handle="@+id/inner_handle"
+        splitview:primaryContent="@+id/inner_primary"
+        splitview:secondaryContent="@+id/inner_secondary">
+
+        <TextView
+            android:id="@+id/inner_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="Second Window"/>
+
+        <ImageView
+            android:id="@+id/inner_handle"
+            android:layout_width="10dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shade_handlebar_vertical"/>
+
+        <TextView
+            android:id="@+id/inner_secondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Third Window"
+            android:textSize="20sp"/>
+    </com.androidanimation.customclasses.SplitView>
+
+</com.androidanimation.customclasses.SplitView>
+
+
+
+

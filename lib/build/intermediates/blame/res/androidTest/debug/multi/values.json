@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\Company\\MyWorkSpace\\AndroidAnimation\\lib\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 254,
+                    "endColumn": 56,
+                    "endOffset": 306
+                },
+                "from": {
+                    "file": "E:\\Company\\MyWorkSpace\\AndroidAnimation\\lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 254,
+                        "endColumn": 56,
+                        "endOffset": 306
+                    }
+                }
+            }
+        ]
+    }
+]

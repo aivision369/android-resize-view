@@ -1,0 +1,9 @@
+int attr handle 0x7f010000
+int attr primaryContent 0x7f010001
+int attr secondaryContent 0x7f010002
+int layout main 0x7f020000
+int string app_name 0x7f030000
+int[] styleable SplitView { 0x7f010000, 0x7f010001, 0x7f010002 }
+int styleable SplitView_handle 0
+int styleable SplitView_primaryContent 1
+int styleable SplitView_secondaryContent 2
