@@ -6,6 +6,7 @@
     android:id="@+id/split_view"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@color/app_screen_bg"
     android:orientation="vertical"
     splitview:handle="@+id/handle"
     splitview:primaryContent="@+id/primary"
@@ -21,8 +22,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:textSize="20sp"
-            android:text="First Window"/>
+            android:gravity="center"
+            android:text="First Window"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
 
     </LinearLayout>
 
@@ -30,7 +33,8 @@
         android:id="@+id/handle"
         android:layout_width="fill_parent"
         android:layout_height="10dip"
-        android:background="@drawable/shade_handlebar"/>
+        android:background="@color/colorAccent"
+        android:elevation="5dp"/>
 
     <com.androidanimation.customclasses.SplitView
         android:id="@+id/secondary"
@@ -45,24 +49,30 @@
         <TextView
             android:id="@+id/inner_primary"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20sp"
-            android:text="Second Window"/>
+            android:gravity="center"
+            android:text="Second Window"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/inner_handle"
             android:layout_width="10dip"
             android:layout_height="fill_parent"
-            android:background="@drawable/shade_handlebar_vertical"/>
+            android:background="@color/img_drag"
+            android:elevation="5dp"/>
 
         <TextView
             android:id="@+id/inner_secondary"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:text="Third Window"
+            android:textColor="@color/white"
             android:textSize="20sp"/>
+
     </com.androidanimation.customclasses.SplitView>
 
 </com.androidanimation.customclasses.SplitView>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FF5722 </color>
-    <color name="colorPrimaryDark">#BF360C</color>
-    <color name="colorAccent">#795548</color>
+    <color name="colorPrimary">#223f43</color>
+    <color name="colorPrimaryDark">#ff3d00</color>
+    <color name="colorAccent">#1a292c</color>
+
+    <color name="img_drag">#25383c</color>
+    <color name="app_screen_bg">#426b6d</color>
+
+    <color name="white">#ffffff</color>
 
 </resources>
