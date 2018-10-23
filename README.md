@@ -3,4 +3,4 @@ This project will help that if user want to create custom resize view. User can 
 # How it work
 ![alt text](https://github.com/AndroidNinza/android-resize-view/blob/master/How-it-work.gif)
 
-If any suggestion for this project kindly please send me mail on this email coderd29@gmail.com
+If any suggestion for this project kindly please send me mail on this email limbadiya@gmail.com
